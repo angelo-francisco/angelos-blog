@@ -1,4 +1,4 @@
-AUTHOR = "Ângelo Francisco"
+# AUTHOR = "Ângelo Francisco"
 SITENAME = "Ângelo's Blog"
 SITEURL = ""
 
