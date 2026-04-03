@@ -1,12 +1,12 @@
-AUTHOR = 'Ângelo Francisco'
+AUTHOR = "Ângelo Francisco"
 SITENAME = "Ângelo's Blog"
 SITEURL = ""
 
 PATH = "content"
 
-TIMEZONE = 'Africa/Luanda'
+TIMEZONE = "Africa/Luanda"
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = "en"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -15,9 +15,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-LINKS = (
-    ("Home", "/"),
-)
+LINKS = (("Home", "/"),)
 
 SOCIAL = (
     ("Github", "https://github.com/angelo-francisco/"),
@@ -26,8 +24,11 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 
-STATIC_PATHS = ["images", "extra"]
 
+STATIC_PATHS = [
+    "images",
+    "extra",
+]
 EXTRA_PATH_METADATA = {
-    "extra/favicon.ico": {"path": "favicon.png"},
+    "extra/favicon.ico": {"path": "favicon.ico"},
 }
