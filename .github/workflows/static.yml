@@ -12,4 +12,5 @@ jobs:
       id-token: "write"
     with:
       requirements: pelican[markdown]
+      theme: "https://github.com/seanh/sidecar.git"
       settings: "publishconf.py"
